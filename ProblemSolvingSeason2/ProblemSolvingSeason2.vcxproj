@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Template.cpp" />
+    <ClCompile Include="16967-배열 복원하기.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{71314E98-B5FB-4717-BDFA-6EB72971B220}</ProjectGuid>
@@ -122,8 +131,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -13,5 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Beakjoon">
+      <UniqueIdentifier>{ea7694e5-3e16-45b7-a12e-fe774851d130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers">
+      <UniqueIdentifier>{b72fb9f8-96e8-4038-b3be-a03bdb556696}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16967-배열 복원하기.cpp">
+      <Filter>소스 파일\Beakjoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
